@@ -1,0 +1,28 @@
+.nav {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: black;
+	color: white;
+}
+
+h1 {
+	font-size: 1.6rem;
+}
+
+ul {
+	display: flex;
+}
+
+ul > li {
+	list-style: none;
+	margin-right: 20px;
+}
+
+button {
+	padding: 7px 14px;
+	border-radius: 10px;
+	border: none;
+	color: white;
+	background-color: #0089a8;
+}

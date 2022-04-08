@@ -1,9 +1,18 @@
+import Logo from './components/Logo';
+import Links from './components/Links';
+import Button from './components/Button';
+
 import './App.css';
 
 function App() {
+  const linksContent = ['Services', 'Projects', 'About'];
   return (
     <div className="app">
-      <h1>Hello react</h1>
+      <div className="nav">
+        <Logo />
+        <Links linksArr={linksContent} />
+        <Button text='Contact' />
+      </div>
     </div>
   );
 }
